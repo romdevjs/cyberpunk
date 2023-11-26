@@ -1,0 +1,47 @@
+@font-face {
+  src: url("../assets/fonts/Archangelsk.ttf") format("truetype");
+  font-family: "Archangelsk";
+  font-style: normal;
+  font-weight: 400;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.6rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  width: 100%;
+  font-family: 'Archangelsk', 'sans-serif';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 1em;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: all ease-in-out .3s;
+}
+
+.page {
+  width: 100%;
+}
