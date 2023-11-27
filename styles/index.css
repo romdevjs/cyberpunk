@@ -42,6 +42,18 @@ a {
   transition: all ease-in-out .3s;
 }
 
+button, input {
+  outline: none;
+  border: none;
+  transition: all ease-in-out .3s;
+}
+
 .page {
   width: 100%;
+}
+
+.blue {
+  color: #52BEDC;
+  font-weight: 400;
+  font-style: normal;
 }
