@@ -169,28 +169,28 @@
   position: relative;
 }
 
-.checkbox-input{
+.game > .game-content > .content-form > .form-checkbox > .checkbox-item > .checkbox-input{
   width: 100%;
   height: 100%;
   margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
-.checkbox-input:checked{
-  opacity: 1;
+.game > .game-content > .content-form > .form-checkbox > .checkbox-item > .item-checking{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #777;
 }
 
-.checkbox-input:checked:before{
-  content: '';
-  display: block;
-  width: 2rem;
-  height: 2rem;
-  color: red;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 1;
+.game > .game-content > .content-form > .form-checkbox > .checkbox-item >.checkbox-input:checked+.item-checking{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  background-image: url("../../assets/game/Check.svg");
+  background-position: center;
 }
