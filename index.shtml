@@ -8,12 +8,18 @@
 	<link rel="stylesheet" href="./src/main/main.css"/>
 	<link rel="stylesheet" href="./src/city/city.css"/>
 	<link rel="stylesheet" href="./src/game/game.css"/>
+	<link rel="stylesheet" href="./src/about/about.css"/>
+	<link rel="stylesheet" href="./src/purchase/purchase.css"/>
+	<link rel="stylesheet" href="./src/footer/footer.css"/>
 </head>
 <body>
 <div class="page">
 	<!--#include file="./src/main/main.html" -->
 	<!--#include file="./src/city/city.html" -->
 	<!--#include file="./src/game/game.html" -->
+	<!--#include file="./src/about/about.html" -->
+	<!--#include file="./src/purchase/purchase.html" -->
+	<!--#include file="./src/footer/footer.html" -->
 </div>
 </body>
 </html>
