@@ -5,22 +5,13 @@
   margin: 0;
 }
 
-.game > .game-top {
-  width: 100%;
-}
-
-.game > .game-bottom {
+.game__decorate {
   width: 100%;
   height: 7rem;
   margin: 0;
 }
 
-.game > .game-bottom > .bottom-image{
-  width: 100%;
-  height: 100%;
-}
-
-.game > .game-content {
+.game__content {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -29,19 +20,14 @@
   padding: 5.5rem 1.2rem 7rem;
 }
 
-.game > .game-content > .content-gallery {
+.game__gallery {
   width: 100%;
   height: 13.1rem;
   position: relative;
   z-index: 1;
 }
 
-.game > .game-content > .content-gallery > .gallery-image {
-  width: 100%;
-  height: 100%;
-}
-
-.game > .game-content > .content-gallery > .gallery-item.gallery-discount {
+.gallery__discount {
   width: 6.2rem;
   height: 6.2rem;
   position: absolute;
@@ -50,12 +36,7 @@
   z-index: 2;
 }
 
-.game > .game-content > .content-gallery > .gallery-item.gallery-discount > .gallery-image {
-  width: 100%;
-  height: 100%;
-}
-
-.game > .game-content > .content-info {
+.game__info {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -64,15 +45,7 @@
   color: #fff;
 }
 
-.game > .game-content > .content-info > .info-title {
-  text-align: left;
-}
-
-.game > .game-content > .content-info > .info-text {
-  line-height: 3.2rem;
-}
-
-.game > .game-content > .content-form {
+.game__form {
   width: 100%;
   display: flex;
   justify-content: start;
@@ -81,7 +54,7 @@
   color: #fff;
 }
 
-.game > .game-content > .content-form > .form-inputs {
+.game__form-list {
   display: flex;
   justify-content: start;
   align-items: flex-start;
@@ -90,7 +63,7 @@
   margin-bottom: 3.5rem;
 }
 
-.game > .game-content > .content-form > .form-inputs > .inputs-item {
+.game__input {
   font-size: 1.8rem;
   font-weight: 300;
   color: #fff;
@@ -99,11 +72,11 @@
   padding: 1.3rem 0;
 }
 
-.game > .game-content > .content-form > .form-inputs > .inputs-item::placeholder {
+.game__input::placeholder {
   color: #fff;
 }
 
-.game > .game-content > .content-form > .form-file {
+.form__file {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,22 +87,22 @@
   margin-bottom: 3.5rem;
 }
 
-.game > .game-content > .content-form > .form-file:hover {
+.form__file:hover {
   border-color: #fff;
 }
 
-.game > .game-content > .content-form > .form-file > .file-text {
+.form__file-text {
   font-size: 1.6rem;
   color: #fff;
   padding-bottom: 1px;
   border-bottom: 1px solid #fff;
 }
 
-.game > .game-content > .content-form > .form-file > .file-format {
+.form__file-format {
   display: none;
 }
 
-.game > .game-content > .content-form > .form-file > .file-input {
+.form__file-input {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -138,7 +111,7 @@
   left: 0;
 }
 
-.game > .game-content > .content-form > .form-button {
+.form__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,13 +125,13 @@
   margin-bottom: 3.4rem;
 }
 
-.game > .game-content > .content-form > .form-button:hover,
-.game > .game-content > .content-form > .form-button:focus {
+.form__button:hover,
+.form__button:focus {
   background: #d3cd00;
   box-shadow: 0 0 3px 0 #F8F200;
 }
 
-.game > .game-content > .content-form > .form-checkbox{
+.form__checkbox {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -169,13 +142,13 @@
   color: #fff;
 }
 
-.game > .game-content > .content-form > .form-checkbox > .checkbox-item{
+.form__checkbox-item {
   width: 1.4rem;
   height: 1.4rem;
   position: relative;
 }
 
-.game > .game-content > .content-form > .form-checkbox > .checkbox-item > .checkbox-input{
+.form__checkbox-input {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -185,13 +158,13 @@
   opacity: 0;
 }
 
-.game > .game-content > .content-form > .form-checkbox > .checkbox-item > .item-checking{
+.form__checkbox-checking {
   width: 100%;
   height: 100%;
   border: 1px solid #777;
 }
 
-.game > .game-content > .content-form > .form-checkbox > .checkbox-item >.checkbox-input:checked+.item-checking{
+.form__checkbox-input:checked + .form__checkbox-checking {
   width: 100%;
   height: 100%;
   margin: 0;

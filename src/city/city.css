@@ -1,8 +1,8 @@
-.city{
+.city {
   padding: 14.5rem 0 7rem;
 }
 
-.city > .city-content{
+.city__content {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -12,35 +12,20 @@
   margin-bottom: 7rem;
 }
 
-.city > .city-content > .content-title{
-  text-align: left;
+.city__bold-text {
+  font-weight: 700;
 }
 
-.city > .city-content > .content-text{
-  line-height: 3.2rem;
-  text-align: left;
-}
-
-.city > .city-content > .content-text > strong{
-  color: #52BEDC;
-}
-
-.city > .city-gallery{
+.city__gallery {
   display: grid;
   grid-template-rows: 1fr 1fr 2fr;
   gap: 2rem;
 }
 
-.city > .city-gallery > .gallery-item{
-  clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
-  overflow: hidden;
-}
-
-.city > .city-gallery > .gallery-item.item-last{
+.gallery__discount:last-child {
   clip-path: polygon(20% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 15%);
 }
 
-.city > .city-gallery > .gallery-item > .item-image{
-  width: 100%;
-  height: 100%;
+.city__image{
+  object-fit: contain;
 }

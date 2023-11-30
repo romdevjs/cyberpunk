@@ -3,101 +3,63 @@
   background: #000;
 }
 
-.purchase > .purchase-top {
+
+.purchase__image {
   width: 100%;
   height: 19.8rem;
 }
 
-.purchase > .purchase-top > .top-image {
-  width: 100%;
-  height: 100%;
-}
-
-.purchase > .purchase-content {
+.purchase__content {
   width: 100%;
   padding: 4rem 1.2rem 7rem;
 }
 
-.purchase > .purchase-content > .content-title {
-  text-align: left;
-  color: #ffffff;
+.purchase-title {
   margin-bottom: 2.5rem;
 }
 
-.purchase > .purchase-content > .content-item > .item-title{
-  font-size: 2rem;
-  color: #52BEDC;
-  text-align: left;
+.purchase__subtitle {
   margin-bottom: 2rem;
 }
 
-.purchase > .purchase-content > .content-item.text{
+
+.purchase__content-text {
   margin-bottom: 4rem;
 }
 
-.purchase > .purchase-content > .content-item.text > .item-list{
-  display: flex;
-  justify-content: start;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 1.5rem;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.purchase__platforms-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem 5.6rem;
 }
 
-.purchase > .purchase-content > .content-item.text > .item-list > .list-item{
+.purchase__platforms-list-item {
+  height: 5rem;
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 1.8rem;
-  width: 100%;
-  margin: 0;
 }
 
-.purchase > .purchase-content > .content-item.text > .item-list > .list-item > .item-icon{
-  width: 2.4rem;
-  height: 2.4rem;
-}
 
-.purchase > .purchase-content > .content-item.text > .item-list > .list-item > .item-text{
-  text-align: left;
-  color: #fff;
-}
-
-.purchase > .purchase-content > .content-item.platforms > .item-images{
-  width: 100%;
-  display: flex;
-  justify-content: start;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 4rem;
-}
-
-.purchase > .purchase-content > .content-item.platforms > .item-images > .images-row{
-  width: 100%;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 5rem;
-}
-
-.purchase > .purchase-content > .content-item.platforms > .item-images > .images-row > .pc{
+.purchase__platforms-list-item_pc {
   width: 6.2rem;
   height: 3.5rem;
 }
 
-.purchase > .purchase-content > .content-item.platforms > .item-images > .images-row > .xbox{
+
+.purchase__platforms-list-item_xbox {
   width: 17.8rem;
   height: 3.5rem;
 }
 
-.purchase > .purchase-content > .content-item.platforms > .item-images > .images-row > .stadia{
+
+.purchase__platforms-list-item_stadia {
   width: 5.8rem;
   height: 5rem;
 }
 
-.purchase > .purchase-content > .content-item.platforms > .item-images > .images-row > .playstation{
+
+.purchase__platforms-list-item_playstation {
   width: 16.8rem;
   height: 3.5rem;
 }

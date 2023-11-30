@@ -1,38 +1,28 @@
-.footer{
+.footer {
   width: 100%;
   background: #fff;
 }
 
-.footer > .footer-top{
+.footer__logos {
   padding: 4rem 1.2rem 2.5rem;
-  display: grid;
-  grid-template-rows: 1fr;
-  gap: 2.5rem;
-}
-
-.footer > .footer-top > .top-row{
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
-.footer > .footer-top > .top-row > .row-image > img{
-  width: 100%;
-  height: 100%;
-}
-
-.footer > .footer-top > .top-row > .row-image.cyberpunk{
+.footer__logos-item_cyberpunk {
   width: 20rem;
   height: 5rem;
 }
 
-.footer > .footer-top > .top-row > .row-image.company{
+.footer__logos-item_company {
   width: 11.6rem;
   height: 5rem;
 }
 
-.footer > .footer-license{
+.footer__list {
   display: grid;
   grid-template-rows: 1fr;
   gap: 1.5rem;
@@ -40,22 +30,22 @@
   padding: 2.5rem;
 }
 
-.footer > .footer-license > .license-item{
+.footer__list-item {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer > .footer-license > .license-item > .license-link{
+.license-link {
   color: #000;
 }
 
-.footer > .footer-license > .license-item > .license-link:hover,
-.footer > .footer-license > .license-item > .license-link:focus{
+.license-link:hover,
+.license-link:focus {
   color: #52BEDC;
 }
 
-.footer > .footer-rights{
+.footer__rights {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +53,7 @@
   padding: 1.3rem 3.3rem;
 }
 
-.footer > .footer-rights > small{
+.copyright {
   font-size: 1.2rem;
   color: #fff;
 }
