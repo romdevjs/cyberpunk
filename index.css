@@ -48,6 +48,10 @@ button, input {
   transition: all ease-in-out .3s;
 }
 
+.container {
+  padding: 0 1.2rem;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -205,5 +209,66 @@ ul {
 
 .list__text {
   text-align: left;
+}
+
+@media screen and (min-width: 767px) {
+  .btn {
+    width: 19.2rem;
+    font-size: 1.8rem;
+  }
+
+  .paragraph {
+    font-size: 1.8rem;
+    line-height: 3.4rem;
+  }
+
+  .container {
+    padding: 0 3.6rem;
+  }
+
+  .title {
+    font-size: 6.2rem;
+    text-align: left;
+    color: #000;
+    z-index: 3;
+  }
+
+  .title_light {
+    color: #fff;
+  }
+
+  .logo {
+    width: auto;
+    height: auto;
+  }
+
+  .logo__image {
+    width: 29.4rem;
+    height: 7.5rem;
+    object-fit: contain;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: end;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .socials__link {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .list__icon {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  .hero__link {
+    width: auto;
+    font-size: 2.4rem;
+    padding: 1.9rem 5rem;
+  }
 }
 

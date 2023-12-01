@@ -1,5 +1,5 @@
 <section class="city">
-	<div class="city__content">
+	<div class="container city__content">
 		<h3 class="title">Найт-Сити изменит тебя навсегда!</h3>
 		<p class="paragraph">
 			<strong class="city__bold-text text-blue">Cyberpunk 2077</strong> — приключенческая ролевая игра, действие которой
@@ -13,14 +13,23 @@
 	</div>
 
 	<ul class="city__gallery">
-		<li class="hero gallery__discount">
-			<img class="image city__image" src="./src/city/images/320/city1_320.png" alt=""/>
+		<li class="hero city__gallery-item">
+			<picture>
+				<source media="(min-width: 767px)" srcset="./src/city/images/1024/city1.png">
+				<img class="image city__image" src="./src/city/images/320/city1_320.png" alt=""/>
+			</picture>
 		</li>
-		<li class="hero gallery__discount">
-			<img class="image city__image" src="./src/city/images/320/city2_320.png" alt=""/>
+		<li class="hero city__gallery-item">
+			<picture>
+				<source media="(min-width: 767px)" srcset="./src/city/images/1024/city2.png">
+				<img class="image city__image" src="./src/city/images/320/city2_320.png" alt=""/>
+			</picture>
 		</li>
-		<li class="hero gallery__discount item-last">
-			<img class="image city__image" src="./src/city/images/320/city3_320.png" alt=""/>
+		<li class="hero city__gallery-item">
+			<picture>
+				<source media="(min-width: 767px)" srcset="./src/city/images/1024/city3.png">
+				<img class="image city__image" src="./src/city/images/320/city3_320.png" alt=""/>
+			</picture>
 		</li>
 	</ul>
 </section>

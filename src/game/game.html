@@ -1,55 +1,69 @@
 <section class="game">
 	<div class="game__decorate">
-		<img class="image" src="./src/game/images/320/game_top_320.png" alt=""/>
+		<picture>
+			<source media="(min-width: 767px)" srcset="./src/game/images/1024/decorate1.png">
+			<img class="image" src="./src/game/images/320/game_top_320.png" alt=""/>
+		</picture>
 	</div>
 
 	<div class="game__content">
 		<div class="game__gallery">
-			<img class="image" src="./src/game/images/320/game2_320.png" alt=""/>
+			<picture>
+				<source media="(min-width: 767px)" srcset="./src/game/images/1024/game2.png">
+				<img class="image game__gallery-image" src="./src/game/images/320/game2_320.png" alt=""/>
+			</picture>
 			<div class="gallery__discount">
-				<img class="image" src="./src/game/images/320/game3_320.png" alt=""/>
+				<picture>
+					<source media="(min-width: 767px)" srcset="./src/game/images/1024/game3.png">
+					<img class="image" src="./src/game/images/320/game3_320.png" alt=""/>
+				</picture>
 			</div>
 		</div>
 
-		<div class="game__info">
-			<h3 class="title title_light">Играй и выигрывай!</h3>
-			<p class="paragraph _text-white">
-				Играй в <strong class="text-blue">Cyberpunk 2077</strong> и получи возможность выиграть консоль <strong
-				class="text-blue">Xbox Series X</strong> или <strong class="text-blue">Sony PlayStation 5!</strong>
-				Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля.
-				Удачи! ;)
-			</p>
-		</div>
-
-		<form class="game__form">
-			<ul class="game__form-list">
-				<li class="game__form-list-item">
-					<input class="game__input" type="text" name="name" id="name" placeholder="Как тебя зовут?"/>
-				</li>
-				<li>
-					<input class="game__input" type="email" name="email" id="email" placeholder="Твой е-mail"/>
-				</li>
-			</ul>
-
-			<div class="form__file">
-				<span class="form__file-text">Прикрепить скриншот</span>
-				<div class="form__file-format">.png / .jpg / .pdf</div>
-				<input class="form__file-input" type="file" accept=".pdf,image/png, image/jpeg"/>
+		<div class="game__content-wrapper">
+			<div class="game__info">
+				<h3 class= "title title_light">Играй и выигрывай!</h3>
+				<p class="paragraph _text-white">
+					Играй в <strong class="text-blue">Cyberpunk 2077</strong> и получи возможность выиграть консоль <strong
+					class="text-blue">Xbox Series X</strong> или <strong class="text-blue">Sony PlayStation 5!</strong>
+					Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля.
+					Удачи! ;)
+				</p>
 			</div>
 
-			<button class="btn btn_light form__button" type="submit">Отправить</button>
+			<form class="game__form">
+				<ul class="game__form-list">
+					<li class="game__form-list-item">
+						<input class="game__input" type="text" name="name" id="name" placeholder="Как тебя зовут?"/>
+					</li>
+					<li>
+						<input class="game__input" type="email" name="email" id="email" placeholder="Твой е-mail"/>
+					</li>
+				</ul>
 
-			<div class="form__checkbox">
-				<div class="form__checkbox-item">
-					<input type="checkbox" class="form__checkbox-input" name="agreement" id="agreement"/>
-					<div class="form__checkbox-checking"></div>
+				<div class="game__form-file">
+					<span class="game__form-file-text">Прикрепить скриншот</span>
+					<div class="game__form-file-format">.png / .jpg / .pdf</div>
+					<input class="game__form-file-input" type="file" accept=".pdf,image/png, image/jpeg"/>
 				</div>
-				<label for="agreement" class="form__checkbox-label">Согласен на обработку персональных данных</label>
-			</div>
-		</form>
+
+				<button class="btn btn_light form__button" type="submit">Отправить</button>
+
+				<div class="game__form-checkbox">
+					<div class="game__form-checkbox-item">
+						<input type="checkbox" class="game__form-checkbox-input" name="agreement" id="agreement"/>
+						<div class="game__form-checkbox-checking"></div>
+					</div>
+					<label for="agreement" class="game__form-checkbox-label">Согласен на обработку персональных данных</label>
+				</div>
+			</form>
+		</div>
 	</div>
 
 	<div class="game__decorate">
-		<img class="image" src="./src/game/images/320/game_bottom_320.png" alt=""/>
+		<picture>
+			<source media="(min-width: 767px)" srcset="./src/game/images/1024/decorate2.png">
+			<img class="image" src="./src/game/images/320/game_bottom_320.png" alt=""/>
+		</picture>
 	</div>
 </section>

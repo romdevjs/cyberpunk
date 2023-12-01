@@ -8,7 +8,6 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  padding: 0 1.2rem;
   margin-bottom: 7rem;
 }
 
@@ -22,10 +21,34 @@
   gap: 2rem;
 }
 
-.gallery__discount:last-child {
+.city__gallery-item {
+  overflow: hidden;
+}
+
+.city__gallery-item:last-child {
   clip-path: polygon(20% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 15%);
 }
 
 .city__image{
   object-fit: contain;
+}
+
+@media screen and (min-width: 767px){
+  .city{
+    padding: 7rem 0;
+  }
+
+  .city__gallery {
+    padding: 0 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .city__gallery-item:last-child {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .city__image{
+    object-fit: fill;
+  }
 }
