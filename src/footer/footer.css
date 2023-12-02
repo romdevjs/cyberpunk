@@ -23,8 +23,10 @@
 }
 
 .footer__list {
-  display: grid;
-  grid-template-rows: 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 1.5rem;
   background: #E6E6E6;
   padding: 2.5rem;
@@ -56,4 +58,44 @@
 .copyright {
   font-size: 1.2rem;
   color: #fff;
+}
+
+@media screen and (min-width: 767px) {
+  .footer__wrapper {
+    display: flex;
+    gap: 3.2rem;
+    padding: 1.3rem 3.6rem;
+  }
+
+  .footer__logos {
+    width: 50%;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 3.2rem;
+    padding: 0;
+  }
+
+  .footer__logos-item_cyberpunk {
+    width: 50%;
+    height: auto;
+  }
+
+  .footer__logos-item_company {
+    width: 40%;
+    height: auto;
+  }
+
+  .footer__list {
+    width: 50%;
+    justify-content: end;
+    flex-direction: row;
+    background: #fff;
+    padding: 0;
+    gap: 3.2rem;
+  }
+
+  .footer__list-item {
+    width: auto;
+    justify-content: start;
+  }
 }

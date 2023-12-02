@@ -27,7 +27,7 @@
   z-index: 1;
 }
 
-.gallery__discount {
+.game__gallery-discount {
   width: 6.2rem;
   height: 6.2rem;
   position: absolute;
@@ -176,8 +176,10 @@
 
 @media screen and (min-width: 767px) {
   .game__content {
+    position: relative;
+    align-items: flex-start;
     flex-direction: row-reverse;
-    padding: 12rem 3.6rem 7rem;
+    padding: 15.5rem 3.6rem 7rem;
   }
 
   .game__gallery {
@@ -186,11 +188,18 @@
     width: 50%;
   }
 
+  .game__gallery-discount {
+    width: 13.2rem;
+    height: 13.2rem;
+    left: 3.6rem;
+    top: 1.5rem;
+  }
+
   .game__content-wrapper {
     width: 50%;
   }
 
-  .game__info{
+  .game__info {
     margin-bottom: 9.8rem;
   }
 }

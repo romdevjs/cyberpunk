@@ -3,7 +3,6 @@
   background: #000;
 }
 
-
 .purchase__image {
   width: 100%;
   height: 19.8rem;
@@ -11,7 +10,8 @@
 
 .purchase__content {
   width: 100%;
-  padding: 4rem 1.2rem 7rem;
+  padding-top: 4rem;
+  padding-bottom: 7rem;
 }
 
 .purchase-title {
@@ -21,7 +21,6 @@
 .purchase__subtitle {
   margin-bottom: 2rem;
 }
-
 
 .purchase__content-text {
   margin-bottom: 4rem;
@@ -40,26 +39,36 @@
   align-items: center;
 }
 
-
 .purchase__platforms-list-item_pc {
   width: 6.2rem;
   height: 3.5rem;
 }
-
 
 .purchase__platforms-list-item_xbox {
   width: 17.8rem;
   height: 3.5rem;
 }
 
-
 .purchase__platforms-list-item_stadia {
   width: 5.8rem;
   height: 5rem;
 }
 
-
 .purchase__platforms-list-item_playstation {
   width: 16.8rem;
   height: 3.5rem;
+}
+
+@media screen and (min-width: 767px){
+  .purchase{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .purchase__image{
+    height: 100%;
+  }
+
+  .purchase__content{
+    padding-top: 7rem;
+  }
 }
