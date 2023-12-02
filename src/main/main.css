@@ -45,20 +45,25 @@
 }
 
 
-@media screen and (min-width: 767px){
-  .header{
+@media screen and (min-width: 767px) {
+  .header {
     justify-content: space-between;
     flex-direction: row;
     gap: 0;
-    padding: 0 3.6rem;
   }
 
-  .main__hero{
+  .main__hero {
     align-items: flex-start;
     padding: 7rem;
     position: absolute;
     right: 3.6rem;
     bottom: 0;
     width: 62.4rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .main__hero {
+    right: 16.7%;
   }
 }
