@@ -20,6 +20,8 @@
 	<!--#include file="./src/about/about.html" -->
 	<!--#include file="./src/purchase/purchase.html" -->
 	<!--#include file="./src/footer/footer.html" -->
+	<script src="./src/main/slider.js"></script>
+	<script src="./src/game/form.js"></script>
 </div>
 </body>
 </html>

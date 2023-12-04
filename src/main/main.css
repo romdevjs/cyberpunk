@@ -30,6 +30,18 @@
   overflow: hidden;
 }
 
+.main__slider-image{
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  transition: .3s;
+}
+
+.main__slider-image_hidden{
+  opacity: 0;
+}
+
 .main__hero {
   background: #F8F200;
   display: flex;

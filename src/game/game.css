@@ -83,6 +83,15 @@
   color: #fff;
 }
 
+.game__input_error {
+  color: #d50404;
+  border-bottom: 1px solid #d50404;
+}
+
+.game__input_error::placeholder {
+  color: #d50404;
+}
+
 .game__form-file {
   display: flex;
   justify-content: center;
@@ -96,6 +105,16 @@
   cursor: pointer;
 }
 
+.game__form-file_error {
+  color: #d50404;
+  border: 1px dashed #d50404;
+}
+
+.game__form-file_error > .game__form-file-text{
+  color: #d50404;
+  border-bottom: 1px solid #d50404;
+}
+
 .game__form-file:hover {
   border-color: #fff;
 }
@@ -105,6 +124,7 @@
   color: #fff;
   padding-bottom: 1px;
   border-bottom: 1px solid #fff;
+  transition: .3s all;
 }
 
 .game__form-file-format {
@@ -166,6 +186,7 @@
   top: 0;
   left: 0;
   opacity: 0;
+  z-index: 3;
 }
 
 .game__form-checkbox-checking {

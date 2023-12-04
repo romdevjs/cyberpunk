@@ -99,3 +99,40 @@
     justify-content: start;
   }
 }
+
+@media screen and (min-width: 1025px) {
+  .footer__wrapper {
+    display: flex;
+    gap: 3.2rem;
+    padding: 1.3rem 16.7%;
+  }
+
+  .footer__logos {
+    justify-content: start;
+    gap: 3.2rem;
+  }
+
+  .footer__logos-item_cyberpunk {
+    width: 29.5rem;
+    height: 7.4rem;
+  }
+
+  .footer__logos-item_company {
+    width: 17.2rem;
+    height: 7.4rem;
+  }
+
+  .footer__list {
+    width: 50%;
+    justify-content: end;
+    flex-direction: row;
+    background: #fff;
+    padding: 0;
+    gap: 3.2rem;
+  }
+
+  .footer__list-item {
+    width: auto;
+    justify-content: start;
+  }
+}

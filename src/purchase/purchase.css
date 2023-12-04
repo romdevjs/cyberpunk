@@ -28,7 +28,7 @@
 
 .purchase__platforms-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 6.2rem 17.8rem;
   gap: 4rem 5.6rem;
 }
 
@@ -70,5 +70,24 @@
 
   .purchase__content{
     padding-top: 7rem;
+  }
+}
+
+@media screen and (min-width: 1025px){
+  .purchase{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .purchase__image{
+    height: 100%;
+  }
+
+  .purchase__content{
+    padding-right: 33.4%;
+    padding-left: 4%;
+  }
+
+  .purchase__content-text{
+    margin-bottom: 7.5rem;
   }
 }

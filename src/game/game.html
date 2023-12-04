@@ -26,7 +26,7 @@
 
 		<div class="game__content-wrapper">
 			<div class="game__info">
-				<h3 class= "title title_light game__info-title">Играй и выигрывай!</h3>
+				<h3 class="title title_light game__info-title">Играй и выигрывай!</h3>
 				<p class="paragraph _text-white">
 					Играй в <strong class="text-blue">Cyberpunk 2077</strong> и получи возможность выиграть консоль <strong
 					class="text-blue">Xbox Series X</strong> или <strong class="text-blue">Sony PlayStation 5!</strong>
@@ -35,27 +35,27 @@
 				</p>
 			</div>
 
-			<form class="game__form">
+			<form class="game__form" id="form">
 				<ul class="game__form-list">
 					<li class="game__form-list-item">
-						<input class="game__input" type="text" name="name" id="name" placeholder="Как тебя зовут?"/>
+						<input class="game__input" type="text" name="name" id="name" placeholder="Как тебя зовут?" required/>
 					</li>
 					<li class="game__form-list-item">
-						<input class="game__input" type="email" name="email" id="email" placeholder="Твой е-mail"/>
+						<input class="game__input" type="email" name="email" id="email" placeholder="Твой е-mail" required/>
 					</li>
 				</ul>
 
-				<div class="game__form-file">
-					<div class="game__form-file-text">Прикрепить скриншот</div>
+				<div class="game__form-file" id="form-file">
+					<div class="game__form-file-text" id="file-text">Прикрепить скриншот</div>
 					<div class="game__form-file-format">.png / .jpg / .pdf</div>
-					<input class="game__form-file-input" type="file" accept=".pdf,image/png, image/jpeg"/>
+					<input id="file-input" class="game__form-file-input" type="file" accept=".pdf,image/png, image/jpeg" required/>
 				</div>
 
 				<button class="btn btn_light form__button" type="submit">Отправить</button>
 
 				<div class="game__form-checkbox">
 					<div class="game__form-checkbox-item">
-						<input type="checkbox" class="game__form-checkbox-input" name="agreement" id="agreement"/>
+						<input type="checkbox" class="game__form-checkbox-input" name="agreement" id="agreement" required/>
 						<div class="game__form-checkbox-checking"></div>
 					</div>
 					<label for="agreement" class="game__form-checkbox-label">Согласен на обработку персональных данных</label>
