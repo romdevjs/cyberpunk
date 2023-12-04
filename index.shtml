@@ -4,24 +4,26 @@
 	<title>Cyberpunk</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="./index.css"/>
-	<link rel="stylesheet" href="./src/main/main.css"/>
-	<link rel="stylesheet" href="./src/city/city.css"/>
-	<link rel="stylesheet" href="./src/game/game.css"/>
-	<link rel="stylesheet" href="./src/about/about.css"/>
-	<link rel="stylesheet" href="./src/purchase/purchase.css"/>
-	<link rel="stylesheet" href="./src/footer/footer.css"/>
+	<link rel="stylesheet" href="css/index.css"/>
+	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/city.css"/>
+	<link rel="stylesheet" href="css/game.css"/>
+	<link rel="stylesheet" href="css/about.css"/>
+	<link rel="stylesheet" href="css/purchase.css"/>
+	<link rel="stylesheet" href="css/footer.css"/>
 </head>
+
 <body>
 <div class="page">
-	<!--#include file="./src/main/main.html" -->
-	<!--#include file="./src/city/city.html" -->
-	<!--#include file="./src/game/game.html" -->
-	<!--#include file="./src/about/about.html" -->
-	<!--#include file="./src/purchase/purchase.html" -->
-	<!--#include file="./src/footer/footer.html" -->
-	<script src="./src/main/slider.js"></script>
-	<script src="./src/game/form.js"></script>
+	<!--#include file="./html/main.html" -->
+	<!--#include file="./html/city.html" -->
+	<!--#include file="./html/game.html" -->
+	<!--#include file="./html/about.html" -->
+	<!--#include file="./html/purchase.html" -->
+	<!--#include file="./html/footer.html" -->
+
+	<script src="js/slider.js"></script>
+	<script src="js/form.js"></script>
 </div>
 </body>
 </html>

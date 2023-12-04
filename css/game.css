@@ -201,7 +201,7 @@
   margin: 0;
   position: relative;
   z-index: 2;
-  background-image: url("images/320/Check.svg");
+  background-image: url("../assets/images/game/320/Check.svg");
   background-position: center;
 }
 
